@@ -5,41 +5,186 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>KindhartCoding.github.io</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Kindhart Coding</title>
 </head>
-<body>
- 
-  <div class="jumbotron">
-    <h1 class="display-6">Hello, I'm <span class="btn btn-primary btn-lg">Thomas Kindhart</span></h1>
-    <h1>A front-end web developer</h1>
-    
-    <hr class="my-4">
-    
-    <a class="btn btn-primary btn-lg" href="/works.html" role="button">My Works</a>
-    
-    <hr class="my-4">
-    <h2>
-      What inspires me to code?
-    </h2>  
-    
-    <p>After working for the government at the state level for more than 15 years, I was exposed to:</p>
-    <ul>
-      <li>Boring UIs that lacked any creativity</li>
-      <li>Frequent failures to update content</li>
-      <li>Desktop applications that always crashed</li>
-      <li>Horrible response times in fixing errors</li>
-    </ul>
-    <h2>So it is time to make a change</h2>
-  </div>
-  Second slide [800x400]Copy
+<body class="bg-dark">
   
 
-  Photo by Sergi Kabrera on Unsplash white keyboard
-  Photo by Javier Allegue Barros on Unsplash canyon
-  Photo by Adam Smigielski on Unsplash wood vertical
-  Photo by Samuel Zeller on Unsplash unfinished white paint
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand brandText" href="#">
+    <span class="text-info textFantasy">
+      Kindhart Coding
+    </span>
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron m-5">
+  
+    <h1 class="display-3 mt-3 my-5 text-center">Welcome to 
+      <span class="text-primary">Kindhart Coding!</span></h1>
+    <hr class="my-5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <!-- Content -->
+        </div>
+          <div class="col-lg-8">
+            <h3 class="text-default text-center">As a web developer I am determined to deliver useful and effective websites to my clients.</h3>
+          </div>
+          <div class="col-lg-2">
+            <!-- Content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ABOUT ME -->
+    <div class="card-deck m-5">
+
+      <div class="card" id="about">
+        <div class="card-body">
+          <h4 class="card-title">Creative</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Structured and organized</h6>
+          <p class="card-text">
+            Even though I have 20 years of experience in the Federal and State governments I also cringe when I need to use a boring website with broken links.
+          </p>
+        </div>
+      </div>
+      <img class="border-light" src="./image/Photo on 9-26-18 at 1.17 AM.jpg" class="" alt="Responsive image">
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Smooth User Interface</h6>
+          <p class="card-text">
+            My focus is on ensuring my clients have smooth website that their customers can easily navigate.
+          </p>
+          <p>
+            While some website are excessive in format, you will find that my websites clearly convey your message. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+<footer class="page-footer font-small bg-light m-5 pt-4"
+        id="contact">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+          <p>Contact me when you are ready to setup your next website.</p>
+          <a href="mailto:kindhartcoding#gmail.com">Kindhartcoding@gmail.com</a>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          
+
+
+
+     
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+       
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1" href="www.tee-k.codepen.io" target="_blank">
+          <i class="fab fa-codepen" style="font-size:42px;"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1" href="www.kindhartcoding.github.io">
+          <i class="fab fa-github" style="font-size:42px;"> </i>
+        </a>
+      </li>
+      
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1" href>
+          <i class="fab fa-google-plus"  style="font-size:42px;"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1" href="www.teek.freecodecamp.com">
+          <i class="fab fa-free-code-camp"  style="font-size:42px;"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fa fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">&copy; 2018 
+      <a href="www.kindhartcoding.github.io"> Kindhart Coding</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    </body>
 </html>
